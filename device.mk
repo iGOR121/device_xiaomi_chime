@@ -124,7 +124,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@4.0.vendor \
     memtrack.bengal \
     gralloc.bengal \
-    hwcomposer.bengal \
     libdisplayconfig.qti \
     libdisplayconfig.system.qti \
     libqdMetaData \
@@ -277,8 +276,6 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_PACKAGES += \
-    android.hardware.media.omx@1.0-impl \
-    android.hardware.media.omx@1.0-service \
     libOmxAacEnc \
     libOmxAmrEnc \
     libOmxCore \
@@ -288,9 +285,6 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw \
-    libstagefrighthw_omx \
-    libstagefrighthw_foundation \
-    libstagefright_omx.vendor
 
 # Overlays
 PRODUCT_PACKAGES += \
