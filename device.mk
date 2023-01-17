@@ -43,7 +43,6 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3-impl \
     audio.bluetooth.default \
     audio.r_submix.default \
-    audio.primary.bengal \
     audio.primary.default \
     audio.usb.default \
     libaudio-resampler \
@@ -467,7 +466,7 @@ PRODUCT_PACKAGES += \
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service.chime \
-    vendor.qti.hardware.vibrator-impl
+    vendor.qti.hardware.vibrator.impl.chime
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vibrator/etc/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
