@@ -596,18 +596,10 @@ vendor/etc/qdcm_calib_data_td4330_v2_video_mode_dsi_truly_panel.xml
 vendor/lib64/libhdr_tm.so
 
 # Display SDM
-vendor/lib64/libdisplayconfig.qti.so
-vendor/lib64/libdisplaydebug.so
 vendor/lib64/libdisplayqos.so
 vendor/lib64/libdisplayskuutils.so
 vendor/lib64/libdpps.so
-vendor/lib64/libdrm.so
-vendor/lib64/libdrmutils.so
-vendor/lib64/libgpu_tonemapper.so
-vendor/lib64/libgralloccore.so
-vendor/lib64/libgrallocutils.so
 vendor/lib64/libhistogram.so
-vendor/lib64/libqdutils.so
 vendor/lib64/libqseed3.so
 vendor/lib64/libsdedrm.so
 vendor/lib64/libsdm-color.so
@@ -833,7 +825,6 @@ vendor/lib/libadreno_app_profiles.so
 vendor/lib/libadreno_utils.so
 vendor/lib/libc2d30_bltlib.so
 vendor/lib/libgpudataproducer.so
-vendor/lib/libgsl.so
 vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
 vendor/lib64/egl/eglSubDriverAndroid.so
